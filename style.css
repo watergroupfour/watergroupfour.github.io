@@ -40,6 +40,10 @@ body{
     font-size:30px;
 }
 
+#toolbar li:hover{
+    color:#33cc33;
+}
+
 #toolbar #separator{
     width: 0px;
     padding:0;
@@ -106,6 +110,9 @@ body{
     margin-bottom:80px;
 }
 
+#nav li:hover{
+    color:#29a329;
+}
 
 
 /*CSS for map*/
