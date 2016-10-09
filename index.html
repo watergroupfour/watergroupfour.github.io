@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <div id="toolbar" class="unselectable">
+        <ul>
+            <li id="inv" style="border-top:3px solid #33cc33">Investigation</li>
+            <li id="separator">&nbsp;</li>
+            <li id="barmap" style="border-top:none">Map</li>
+        </ul>
+    </div>
+    
+    <hr style="width:80%;margin:auto;color:lightgray;margin-bottom:60px;">
+    
+    <div id="investigation" style="display:block;">
+        
+        <div id="nav">
+            <ul>
+                <li><a href="#aim">Aim &amp; Mineral Dissolution</a></li>
+                <li><a href="#watervel">Water Velocity</a></li>
+                <li><a href="#transcond">Transmittance &amp; Conductivity</a></li>
+                <li><a href="#ph">ph Levels</a></li>
+            </ul>
+        </div>
+        
+        <div class="paragraph" id="aim">
+            <h3 class="ptitle">Aim &amp; Mineral Dissolution</h3>
+            <hr>
+            <p class="text">The aim of the project was to see how the velocity of
+                the water current affected the rates of dissolution of minerals, 
+                affecting the pH of the water body and environment for biological growth. 
+                In theory, stagnant water (water that is not flowing) would have a low 
+                rate of mineral dissolution while flowing water would have a high rate of dissolution.
+                <br><br>
+                To better understand this concept, it helps to look at stirring a solvent in a 
+                solute as an example of the high rate of dissolution. Stirring affects the rate
+                of dissolving because it spreads the solvent's molecules around the solute and 
+                increases the chance of them coming into contact with it. Because of this, stirring
+                makes solvents dissolve faster. The same idea can be used to understand a how minerals
+                would dissolve in a moving stream of water.
+                <br><br>
+                Thus, water with a high mineral content would provide a suitable environment for biological growth. 
+            </p>
+            <hr>
+            <p class="name">- Avi (Physics)</p>
+        </div>
+        
+        <div class="paragraph" id="watervel">
+            <h3 class="ptitle">Water Velocity</h3>
+            <hr>
+            <p class="text">
+                Avi, and myself took it upon ourselves to investigate the velocity of the current of the water.
+                We devised a simple scheme to place a pinball in the canal, and measure the time it takes to
+                cross over a certain distance. What we found however, was that the pinball was hardly
+                moving and even sometimes moving backwards. 
+                <br><br>
+                Jon joined us in theorizing upon the
+                reasons why, and it occurred to us that the movement was simply a sign of wind force. This
+                explained why another group conducting experiments in the canal were reporting the flow of
+                water switching velocities.
+                <br><br>
+                What we came upon was that the average current velocity of the water
+                was effectively zero, and reported our findings to Sara who was conducting water samples,
+                to see if this revelation might affect her hypothesis of presence of life in the canal.
+            </p>
+            <hr>
+            <p class="name">- Adam (Physics)</p>
+        </div>
+        <div class="paragraph" id="transcond">
+            <h3 class="ptitle">Transmittance &amp; Conductivity</h3>
+            <hr>
+            <p class="text">
+                In the eyes of a biologist, the most interesting data collected would most likely be 
+                the transmittance of the water, and how it can show us how much life there is in the 
+                Ruoholahti canal. The most accessible way to do this with the school’s equipment was 
+                the Colorimeter. It measures how much light goes through the water, and from this we 
+                can assume how much life, even if it is only microscopic, is present in the water. If
+                less light passes through, there should be more microorganisms.
+                <br><br>
+                The transmittance data collected shows how there might be different amounts of
+                organisms in different spots of the canal, so since 84,04% of light went through 
+                the water in sample 1, we could assume that there is more algae or perhaps phytoplankton
+                present.
+                <br><br>
+                The conductivity data can also give interesting information – the higher the conductivity,
+                the more ions we can assume are present, and these ions might affect the life forms in the
+                water. However the highest conductivity measurement is in sample 3, with 4745, and this is
+                where there is the highest transmittance. Drinking water is rated from 50 to 500&micro;S/cm
+                (microsiemens per centimetre), nearly ten times higher than our average measuremnt, so the 
+                water contains more ions that ideal for drinking.
+                <br><br>
+                In order to further understand and spot trends on all the data, some simple statistical analysis
+                should be conducted, such as a t-test.
+            </p>
+            <hr>
+            <p class="name">- Sara (Biology)</p>
+        </div>
+        <div class="paragraph" id="ph">
+            <h3 class="ptitle">pH Levels</h3>
+            <hr>
+            <p class="text">
+                Measuring the pH of an aqueous solution can be done in few simple ways using pH 
+                test paper, pH indicator or pH meter.  For this experiment we used an electronic
+                pH meter, which measures the hydrogen ion concentration in the canal water to determine its pH.
+                <br><br>
+                Pure water has a pH of 7, which is in the middle of the 0-14 pH scale and is neutral. The
+                data of canal water collected by our group shows an average pH of 7.3, which means the water
+                is neutral. Most freshwater sources have a natural pH ranging from 6 to 8. 
+                <br><br>
+                The issue becomes harmful below levels of 6 and even more so below 5 as most aquatic systems
+                fail then. When pH does drop to 5, non-desirable species of plankton and mosses start to appear
+                and at a pH of 4 fish populations begin to die off. 
+                <br><br>
+                These issues however do not affect the canal water as our sample data shows a pH of 7.3, 0.3 
+                away from what is considered pure water with pH of 7 meaning currently the acidity of the 
+                water by itself has no negative effects on marine life in the canal. 
+            </p>
+            <hr>
+            <p class="name">- Vladislav (Chemistry)</p>
+        </div>
+    
+    </div>
+    
+    <div id="map" style="display:none;">
+        <p>* Hover over markers to view data</p>
+        <div class="marker" id="one">
+            <div class="data">
+                <ul class="datalist">
+                    <hr>
+                    <li>pH - 7.35</li>
+                    <li>Conductivity - 4740&micro;S/cm</li>
+                    <li>Wavelength - 635nm</li>
+                    <li>Transmittance - 84.04%</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="marker" id="two">
+            <div class="data">
+                <ul class="datalist">
+                    <hr>
+                    <li>pH - 7.30</li>
+                    <li>Conductivity - 4744&micro;S/cm</li>
+                    <li>Wavelength - 635nm</li>
+                    <li>Transmittance - 87.30%</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="marker" id="three">
+            <div class="data">
+                <ul class="datalist">
+                    <hr>
+                    <li>pH - 7.20</li>
+                    <li>Conductivity - 4745&micro;S/cm</li>
+                    <li>Wavelength - 635nm</li>
+                    <li>Transmittance - 90.91%</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="marker" id="four">
+            <div class="data">
+                <ul class="datalist">
+                    <hr>
+                    <li>pH - 7.19</li>
+                    <li>Conductivity - 4694&micro;S/cm</li>
+                    <li>Wavelength - 635nm</li>
+                    <li>Transmittance - 84.75%</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="marker" id="five">
+            <div class="data">
+                <ul class="datalist">
+                    <hr>
+                    <li>pH - 7.32</li>
+                    <li>Conductivity - 4650&micro;S/cm</li>
+                    <li>Wavelength - 635nm</li>
+                    <li>Transmittance - 85.18%</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</body>
+    
+
+</html>
