@@ -96,8 +96,11 @@ body{
 
 #nav a{
     text-decoration: none;
-    color:#33cc33;
-    
+    color:#33cc33;  
+}
+
+#nav a:hover{
+    color:#29a329;
 }
 
 #nav ul{
@@ -109,11 +112,6 @@ body{
     margin-top:80px;
     margin-bottom:80px;
 }
-
-#nav li:hover{
-    color:#29a329;
-}
-
 
 /*CSS for map*/
 #map{
