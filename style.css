@@ -84,6 +84,15 @@ body{
     color:#33cc33;
 }
 
+#hovervideo{
+    text-decoration: underline;
+    color:#33cc33;
+}
+
+#hovervideo:hover #video{
+    display:block;
+}
+
 /*CSS for investigation navigation*/
 #nav{
     width:250px;
